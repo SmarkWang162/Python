@@ -3,12 +3,12 @@ import socket
 sock = socket.socket()
 # 绑定端口号和地址
 sock.bind(("127.0.0.1",8800))
-# 开启监听
+# 开启监听o
 sock.listen(5)
 
 while 1:
     print("server waiting.....")
-    # 测试 如如
+    # 测试
     conn,addr = sock.accept()
     data = conn.recv(1024)
     print("data",data)
