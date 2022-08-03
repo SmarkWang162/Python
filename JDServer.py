@@ -3,7 +3,7 @@ import socket
 sock = socket.socket()
 # 绑定端口号和地址
 sock.bind(("127.0.0.1",8800))
-# 开启监听8
+# 开启监听
 sock.listen(5)
 
 while 1:
